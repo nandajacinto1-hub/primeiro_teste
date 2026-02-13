@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria de Arte</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<Body>
+
+  <!-- CABEÇALHO  -->
+  <header class="cabecalho">
+
+
+    <div class="header-container">
+      <div class="logo">
+        <h1> 𝒜𝑅𝒯 <span>𝐹𝐿𝒴 </span></h1>
+      </div>
+      <div class="caixa-pesquisa">
+        <input type="text" placeholder="Pesquisar arte, artistas...">
+      </div>
+      <div class="header-accoes">
+
+        <button class="botaodeentrar"><a href="QUEMTUES.HTML" class="botaodeentrar">Entrar</a></button>
+
+
+
+        <div class="accoes">
+          <a href="logo1"> <span>❤️</span></a>
+          <a href="logo1"><span>🛒</span></a>
+          <button id="temaBtn" onclick="mudarTema()">🌙</button>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <nav class="navegar">
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul id="menuPrincipal">
+        <li><a href="#">Home</a></li>
+        <li class="menu-item">
+
+          <a href="#">Pintura</a>
+          <div class="mega-menu">
+            <div>
+              <h4>Estilos</h4>
+              <p>Abstrato</p>
+              <p>Realismo</p>
+              <p>Moderno</p>
+            </div>
+            <div>
+              <h4>Técnicas</h4>
+              <p>Óleo</p>
+              <p>Acrílico</p>
+              <p>Aquarela</p>
+            </div>
+            <div>
+              <h4>Temas</h4>
+              <p>Natureza</p>
+              <p>Retratos</p>
+              <p>Cultura</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu-item">
+          <a href="#">Escultura</a>
+          <div class="mega-menu">
+            <div>
+              <h4>Materiais</h4>
+              <p>Madeira</p>
+              <p>Pedra</p>
+              <p>Bronze</p>
+            </div>
+            <div>
+              <h4>Estilos</h4>
+              <p>Tradicional</p>
+              <p>Moderno</p>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="#">Fotografia</a></li>
+        <li><a href="#">Desenho</a></li>
+        <li><a href="#">Gravuras</a></li>
+        <li><a href="#">Artesanato</a></li>
+        <li><a href="#">Artistas A-Z</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+<section class="assunto" id="assunto">
+  <div class="slide active">
+    <div class="assuntonanda">
+      <h1>Arte De Nampula Autêntica</h1>
+      <p>Conectando artistas de Nampula ao mundo através da criatividade.</p>
+      <br>
+      <button  class="btn-explorar">Explorar Obras</button>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="assuntonanda">
+      <h1>Descubra Talentos Locais</h1>
+      <p>Encontre obras de artistas emergentes de Nampula.</p>
+       <br>
+      <button  class="btn-explorar">Explorar Obras</button>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="assuntonanda">
+      <h1>Inspire-se com a Arte</h1>
+      <p>Mergulhe na cultura e na criatividade da nossa região.</p>
+       <br>
+      <button class="btn-explorar">Explorar Obras</button>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="motivacao">
+    <h2>Por que usar o Artfly?</h2>
+    <p>
+      O Artfly é uma plataforma criada para valorizar a arte nampulesa,
+      apoiar artistas locais e permitir que o mundo descubra histórias
+      contadas através das cores, formas e tradições.
+    </p>
+
+    <div class="motivacao-grid">
+      <div class="motivacao-card">
+        <img src="IMAGENS/download (1).webp">
+        <h4>Artistas Locais</h4>
+        <p>Valorização da arte de Nampula.</p>
+      </div>
+      <div class="motivacao-card">
+        <img src="IMAGENS/capulana-e-mussiro-1024x683.jpg">
+        <h4>Cultura Mocambicana</h4>
+        <p>Identidade, tradição e expressão.</p>
+      </div>
+      <div class="motivacao-card">
+        <img src="IMAGENS/OIP (11).webp">
+        <h4>Vendas Seguras</h4>
+        <p>Compre obras diretamente dos artistas.</p>
+      </div>
+      <div class="motivacao-card">
+        <img src="IMAGENS/KowanyamaArtCulturalProject2.jpg">
+        <h4>Impacto Social</h4>
+        <p>Cada compra fortalece a comunidade.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="destaque">
+    <div class="destaque-cabecalho">
+      <h2> Obras à Venda</h2>
+    </div>
+
+    <div class="obras">
+      <div class="divulgacao">
+        <img src="IMAGENS/OIP (12).webp">
+        <div class="imformacoes">
+          <h4>Máscara Makonde</h4>
+          <p>Artista: João Mussa</p>
+          <div class="preco">12.000 MZN</div>
+          <a href="#" class="comprar">🛒 Comprar</a>
+        </div>
+      </div>
+
+      <div class="divulgacao">
+        <img src="IMAGENS/OIP (13).webp">
+        <div class="imformacoes">
+          <h4>Mulher mocambicana</h4>
+          <p>Artista: Amina Salimo</p>
+          <div class="preco">9.500 MZN</div>
+          <a href="#" class="comprar">🛒 Comprar</a>
+        </div>
+      </div>
+
+      <div class="divulgacao">
+        <img src="IMAGENS/OIP (14).webp">
+        <div class="imformacoes">
+          <h4>Espírito da Terra</h4>
+          <p>Artista: Ernesto João</p>
+          <div class="preco">15.000 MZN</div>
+          <a href="#" class="comprar">🛒 Comprar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="visao">
+    <h2>Missão, Visão e Valores</h2>
+    <div class="missoes">
+      <div class="missao-caixa">
+        <h3>Missão</h3>
+        <p>Promover e valorizar a arte mocambicana.</p>
+      </div>
+      <div class="missao-caixa">
+        <h3>Visão</h3>
+        <p>Ser referência global em arte mocambicana.</p>
+      </div>
+      <div class="missao-caixa">
+        <h3>Valores</h3>
+        <p>Cultura, respeito, criatividade e impacto social.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="colaborar">
+    <div class="juntar-se">
+      <h2>Junte-se ao Artfly</h2>
+      <p>Venda, compre e celebre a arte mocambicana.</p>
+      <a href="QUEMTUES.HTML"><button>Criar Conta</button></a>
+    </div>
+  </section>
+
+  <!--RODAPE-->
+  <footer class="rodape">
+    <div class="rodape-grid">
+
+      <div class="sobrenos">
+        <h4>Sobre Artfly</h4>
+        <a href="SOBRENOS.HTML">Quem somos</a>
+        <a href="#">Artfly </a>
+
+        <a href="#">Nossos Artistas</a>
+
+        <a href="#">Contacto</a>
+        <a href="#">Buscas Comuns</a>
+      </div>
+
+      <div class="sobrenos">
+        <h4>Para Compradores</h4>
+        <a href="#">Comprar Arte</a>
+
+        <a href="#">Convide Amigos</a>
+        <a href="#">Configurações da Conta</a>
+
+        <a href="#">Suporte ao Cliente</a>
+      </div>
+
+      <div class="sobrenos">
+        <h4>Para Artistas</h4>
+        <a href="#">Por que vender no Artfly?</a>
+        <a href="#">Termos e Condições</a>
+        <a href="#">Suporte ao Artista</a>
+
+        <a href="#">Como Vender Arte Online</a>
+      </div>
+
+      <div class="sobrenos">
+        <h4>Obras de Arte</h4>
+        <a href="#">Pinturas </a>
+        <a href="#">Fotografia</a>
+
+        <a href="#">Gravuras</a>
+        <a href="#">Esculturas</a>
+        <a href="#">Desenhos</a>
+
+      </div>
+
+      <div class="definicao">
+        <h4>Configurações Regionais</h4>
+
+        <p>País: Moçambique</p>
+
+        <label for="language">Idioma:</label>
+        <select id="Idioma">
+          <option>Português</option>
+          <option>English</option>
+          <option>Español</option>
+          <option>Français</option>
+        </select>
+
+        <p>Moeda: MZN</p>
+
+
+        <button>Alterar configurações</button>
+      </div>
+
+    </div>
+
+    <div class="mais">
+      <p>© Artfly 2026 — Onde a Arte ganha Asas</p>
+
+    </div>
+  </footer>
+
+  <script>
+  // HAMBURGER
+  function toggleMenu() {
+    document.getElementById("menuPrincipal").classList.toggle("active");
+  }
+
+  // ABRIR MEGA MENU NO MOBILE
+  document.querySelectorAll(".menu-item > a").forEach(item => {
+    item.addEventListener("click", function (e) {
+      if (window.innerWidth <= 768) {
+        e.preventDefault();
+        this.parentElement.classList.toggle("open");
+      }
+    });
+  });
+
+  // SLIDER COM FADE
+  const slides = document.querySelectorAll(".slide");
+
+  // Define as imagens de fundo de cada slide
+  slides[0].style.backgroundImage = "url('IMAGENS/pngtree-expressive-artistic-background-contemporary-art-stroke-paintbrush-strokes-on-textured-canvas-image_13625350.png')";
+  slides[1].style.backgroundImage = "url()";
+  slides[2].style.backgroundImage = "url()";
+
+  let indice = 0;
+
+  function trocarSlide() {
+    slides[indice].classList.remove("active");
+    indice = (indice + 1) % slides.length;
+    slides[indice].classList.add("active");
+  }
+
+  // Troca a cada 5 segundos
+  setInterval(trocarSlide, 5000);
+
+
+    // HAMBURGER
+    function toggleMenu() {
+      document.getElementById("menuPrincipal").classList.toggle("active");
+    }
+
+    // ABRIR MEGA MENU NO MOBILE
+    document.querySelectorAll(".menu-item > a").forEach(item => {
+      item.addEventListener("click", function (e) {
+        if (window.innerWidth <= 768) {
+          e.preventDefault();
+          this.parentElement.classList.toggle("open");
+        }
+      });
+    });
+  </script>
+</Body>
+
+</html>
