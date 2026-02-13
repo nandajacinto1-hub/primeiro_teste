@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt">
+ 
+<head>
+  <meta charset="UTF-8">
+  <title>Drogas | Vida com Futuro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="campanha.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="topo">
+      <h1>Vida com Futuro</h1>
+    </div>
+  </header>
+
+  <div class="conteudo">
+
+    <!-- BARRA LATERAL -->
+    <aside class="barra-lateral">
+
+      <div class="caixa-lateral">
+        <h3>Informação é Proteção</h3>
+        <video width="100%" controls>
+          <source src="Você_Está_Preso_Em_Um_Vício____Estoicismo(1080p).mp4">
+        </video>
+      </div>
+
+      <div class="caixa-lateral">
+        <h3>Participe</h3>
+        <p>Ajude a salvar vidas através da conscientização.</p>
+        <button onclick="abrirWhatsApp()">📲 Seja Voluntário</button>
+      </div>
+
+    </aside>
+
+    <!-- CONTEÚDO -->
+    <main>
+
+      <div class="secao">
+        <h2>Campanhas de Prevenção</h2>
+
+        <div class="campanhas">
+          <div class="campanha">
+            <h3>📚 Campanha Escolar</h3>
+            <p>Educação preventiva em escolas.</p>
+          </div>
+
+          <div class="campanha">
+            <h3>👥 Juventude Consciente</h3>
+            <p>Atividades para jovens longe dos vícios.</p>
+          </div>
+
+          <div class="campanha">
+            <h3>🏘 Comunidade Segura</h3>
+            <p>Ações comunitárias de impacto social.</p>
+          </div>
+
+          <div class="campanha">
+            <h3>🎥 Histórias Reais</h3>
+            <p>Testemunhos que inspiram mudanças.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="secao">
+        <h2>História Real</h2>
+
+        <div class="galeria">
+          <img src="b59673370e9f907ef640cd9df755b7a0.jpg">
+          <img src="447e1d2f0f5804411a8ac2a8781412b6.jpg">
+        </div>
+
+        <button onclick="mostrarHistoria()">Saiba mais</button>
+
+        <div id="historia">
+          Miguel venceu o vício com apoio e hoje ajuda outros jovens
+          a escolherem um caminho melhor.
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+
+  <footer>
+    <p>Vida com Futuro © 2026</p>
+    <p>Informação salva vidas</p>
+  </footer>
+
+  <script>
+    function mostrarHistoria() {
+      const h = document.getElementById("historia");
+      h.style.display = h.style.display === "block" ?
+       "none" : 
+       "block";
+    }
+
+    function abrirWhatsApp() {
+      window.open(
+        "https://wa.me/258874786466?text=Ol%C3%A1%2C%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es",
+        "_blank"
+      );
+    }
+  </script>
+
+</body>
+
+</html>
